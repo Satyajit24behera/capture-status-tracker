@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for progress bars
+				progress: {
+					low: '#ea384c',      // Red for < 50%
+					medium: '#FEF7CD',   // Soft Yellow for 50-80%
+					high: '#F2FCE2',     // Soft Green for > 80%
+					neutral: '#8E9196',  // Neutral Gray
+					primary: '#9b87f5',  // Primary Purple
+					dark: '#1A1F2C',     // Dark Purple
 				}
 			},
 			borderRadius: {
